@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  background-color: #ffddd2;
+  font-family: "Open Sans", "Sans Serif";
+  text-align : center;
+  color: #fae1dd;
+  font-size: 20px;
+  line-height: normal;
+  padding: 40px;
+}
+.theme-bleu, .theme-passions {
+  color: #086788;
+  font-weight: bold;
+  background-color: #fcd5ce;
+  width: 90%;
+  margin: 50px auto;
+  border-radius: 40%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 5%;
+}
+
+  #imgprofile {
+    height: 10em;
+    width: auto;
+    border-radius: 50%;
+
+  }
+
+  .boissons {
+    color: #086788;
+    font-weight: bold;
+    background-color: #e8e8e4;
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 8px;
+    padding: 1px;
+}
+
+  .theme-passions {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+  a{
+    color: #086788;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #fec89a;
+  }
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+}
+@media (max-width: 400px) {
+  body {
+    font-size: 7px;
+  }
+}
